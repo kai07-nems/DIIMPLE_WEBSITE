@@ -1,0 +1,23 @@
+.about{
+    background-color:#5987ad;
+    height: 170%;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+
+}
+.main-image{
+    max-width: 40vw;
+}
+p{
+    font-size: 30px;
+    font: 1em sans-serif;
+}
+@media(max-width: 480px) {
+    .about{
+        height: 60%;
+    }
+    p{
+        font-size: 12.5px;
+    }
+}

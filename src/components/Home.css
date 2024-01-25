@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.home{
+    background-color: #a09b9b;
+    height: 95%;
+    width: 100%;
+    padding: 1rem;
+
+}
+.main--image{
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+
+}
+
+h2{
+    padding-left: 2.5rem;
+    font-weight: lighter;
+    font-size: 30px;
+    font-size: small;
+    font: 1em sans-serif;
+    
+}
+@media(max-width: 480px) {
+    .home{
+        height: 68%;
+        width: 95%;
+        padding: 1rem;
+    }
+    img{
+        width: 100%;
+        max-width: 58vw;
+        max-height: 80vw;
+    }
+    
+}

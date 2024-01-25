@@ -1,0 +1,32 @@
+
+.contact-container{
+    background-color: #5987ad;
+    width: 100%;
+    height: 76%;
+    margin-bottom:10px ;
+    padding: 20px;
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+label{
+    margin-bottom: 1px;
+    padding: 8px;
+    align-items: center;
+}
+input, textarea{
+    margin-bottom: 10px;
+    padding: 8px;
+}
+button{
+    background-color:#007bff ;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}

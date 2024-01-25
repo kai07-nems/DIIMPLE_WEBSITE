@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.services-container{
+    background-color: #8c8c8c;
+    height: 80 0%;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+
+}
+.services-grid .main--image{
+    max-width: 30vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 37%;
+}
+h2{
+    font-size: large;
+    text-align: center;
+    font: 1em sans-serif;
+}
+h3{
+    font: 1em sans-serif;
+}
+@media(max-width: 480px) {
+    h2{
+        font-size: 10px;
+    }
+}
